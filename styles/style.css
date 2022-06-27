@@ -220,7 +220,7 @@
 }
 
 /* Botón de 'más información' */
-.main-gast section a{
+#botonGast{
     text-decoration: none;
     background-color: rgb(238, 191, 174);
     color: rgb(255, 255, 255);
@@ -234,7 +234,7 @@
     border-bottom-right-radius: 10px;
     text-shadow: 1px 1px 2px black;
 }
-.main-gast section a:hover{
+#botonGast:hover{
     background-color: white;
     color: rgb(56, 56, 56);
 }
@@ -284,7 +284,7 @@
 }
 
 /* Botón 'CONSULTAR' */
-.main-coct article a{
+#botonCoct{
     text-decoration: none;
     background-color: rgb(220, 165, 145);
     color: rgb(255, 255, 255);
@@ -298,7 +298,7 @@
     border-bottom-right-radius: 10px;
     text-shadow: 1px 1px 2px black;
 }
-.main-coct article a:hover{
+#botonCoct:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(75, 56, 49);
 }
