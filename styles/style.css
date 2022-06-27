@@ -87,7 +87,9 @@
 }
 .g-header:hover{
     opacity: 1;
-
+}
+.g-header a img{
+    max-width: 225px;
 }
 /******************************************************/
 
@@ -534,7 +536,7 @@
     grid-area: gfooter;
     background-image: linear-gradient(white,rgb(220, 165, 145));
     text-align: center;
-    margin-bottom: -10px;
+    margin-bottom: -110px;
 }
 
 /* Imagenes redes */
@@ -574,7 +576,7 @@
 #copyright{
     font-size: 7pt;
     color: rgb(65, 49, 45);
-    text-shadow: 1px 1px 2px rgb(99, 99, 99);
+    text-shadow: 1px 1px 2px #636363;
     font-weight: bold;
 }
 
@@ -592,6 +594,15 @@
     max-width: 15px;
 }
 
+/* Logo footer Cuisiner */
+.imagenFooter{
+    opacity: 0.7;
+}
+.imagenFooter:hover{
+    opacity: 1;
+    transform:scale(1.1, 1.1);
+    transition: 0.25s;
+}
 
 /******************************************************/
 
