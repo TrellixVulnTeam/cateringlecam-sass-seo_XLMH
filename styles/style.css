@@ -206,6 +206,12 @@
     opacity: 1;
 }
 
+/* Titulo */
+.main-gast section h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 /* Formateo de texto de la tabla */
 .main-gast section table{
     color: rgb(88, 52, 39);
@@ -263,6 +269,7 @@
 /* Titulo color */
 .main-coct article h1{
     color: rgb(88, 52, 39);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .main-coct article:hover{
@@ -335,13 +342,13 @@
 #article-nosotros h2{
     color: rgb(85, 65, 60);
     background-color: #fadfd6;
-    text-shadow: 2px 2px 2px rgb(49, 49, 49);
+    text-shadow: 2px 2px 2px rgb(107, 107, 107);
     max-width: 320px;
     margin-left: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #article-nosotros h2:hover{
-    color: rgb(255, 152, 145);
+    color: rgb(245, 142, 117);
     transition: 0.75s;
 }
 #article-nosotros p{   
@@ -368,14 +375,6 @@
     color: rgb(160, 125, 115);
     
 }
-/* ID para cambiar el color de una parte del texto */
-#blanco{
-    color: rgb(255, 242, 220);
-}
-#blanco:hover{
-    color: rgb(85, 65, 60);
-}
-
 /******************************************************/
 
 /******************************************************/
@@ -446,6 +445,10 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+#titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /******************************************************/
 
