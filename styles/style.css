@@ -87,6 +87,7 @@
 }
 .g-header:hover{
     opacity: 1;
+
 }
 /******************************************************/
 
@@ -331,6 +332,7 @@
     width: 350px; height: 500px;
     background-size: cover;
     opacity: 0.75;
+    
 }
 
 /* Animacion de opacidad */
@@ -345,6 +347,7 @@
 #article-nosotros img{
     margin-top: 10px;
     max-width: 320px;
+    border-radius: 8px;
 }
 
 /* Texto */
@@ -355,6 +358,8 @@
     max-width: 320px;
     margin-left: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 #article-nosotros h2:hover{
     color: rgb(245, 142, 117);
@@ -367,6 +372,8 @@
     text-shadow: 1.2px 1.2px 2px rgb(100, 100, 100);
     max-width: 320px;
     margin-left: 15px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 /* Botones */ 
@@ -411,6 +418,7 @@
     margin-bottom: 20px;
     font-weight: bold;
     opacity: 0.75;
+    border-radius: 8px;
 }
 
 /* Animacion de opacidad al section */
@@ -449,6 +457,7 @@
     font-weight: bold;
     padding-right: 100px;
     border-radius: 10px;
+    
 }
 
 /* Formateo del titulo 'Contactanos' */
@@ -496,6 +505,7 @@
     margin-top: 10px;
     margin-bottom: 5px;
     max-width: 320px;
+    border-radius: 8px;
 }
 
 /******************************************************/
@@ -537,6 +547,25 @@
     opacity: 1;
     transform:scale(1.25, 1.25);
     transition: 0.75s;
+}
+/* Colores imagenes redes sociales e iconos */
+#colorVerde:hover{
+    filter: invert(60%) sepia(77%) saturate(4309%) hue-rotate(92deg) brightness(110%) contrast(115%);
+}
+#colorRosa:hover{
+    filter: invert(53%) sepia(63%) saturate(4518%) hue-rotate(305deg) brightness(105%) contrast(101%);
+}
+#colorAzul:hover{
+    filter: invert(9%) sepia(99%) saturate(7498%) hue-rotate(248deg) brightness(86%) contrast(142%);
+}
+#colorRojo:hover{
+    filter: invert(22%) sepia(41%) saturate(6924%) hue-rotate(352deg) brightness(91%) contrast(135%);
+}
+#colorAmarillo:hover{
+    filter: invert(84%) sepia(98%) saturate(2099%) hue-rotate(356deg) brightness(107%) contrast(106%);
+}
+#colorSalmon:hover{
+    filter: invert(64%) sepia(44%) saturate(1087%) hue-rotate(313deg) brightness(100%) contrast(97%);
 }
 
 /* "Copyright" texto */
