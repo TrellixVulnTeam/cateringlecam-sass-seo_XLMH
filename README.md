@@ -1,3 +1,3 @@
 # cateringlecam-sass
-Entrega 'Aplicando SASS'
+Entrega 'SASS 2+SEO'
 Manuel Lecam

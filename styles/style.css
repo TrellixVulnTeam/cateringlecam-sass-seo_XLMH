@@ -111,7 +111,8 @@
 
 /* Hover menú nav */
 .g-nav ul li:hover{
-    background-color: rgb(255, 210, 200);
+    background-color: rgb(255, 196, 183);
+    transition: 0.8s;
 
 }
 .g-nav ul li a:hover{
@@ -170,6 +171,7 @@
 .g-main a:hover{
     background-color: rgb(253, 230, 222);
     color: rgb(160, 125, 115);
+    transition: 0.3s;
 }
 
 /******************************************************/
@@ -319,7 +321,8 @@
 /* Animacion de opacidad */
 #article-nosotros:hover{
     opacity: 1;
-    transform:scale(1.025, 1.025);
+    transform:scale(1.035, 1.035);
+    transition: 0.75s;
 }
 
 /* Imagen */
@@ -338,7 +341,8 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #article-nosotros h2:hover{
-    color: rgb(255, 242, 220);
+    color: rgb(255, 152, 145);
+    transition: 0.75s;
 }
 #article-nosotros p{   
     color: rgb(85, 65, 60);
@@ -362,6 +366,7 @@
 #article-nosotros p a:hover{
     background-color: rgb(253, 230, 222);
     color: rgb(160, 125, 115);
+    
 }
 /* ID para cambiar el color de una parte del texto */
 #blanco{
@@ -469,7 +474,8 @@
 /* Animacion de opacidad */
 .main-gal article:hover{
     opacity: 1;
-    transform:scale(1.025, 1.025);
+    transform:scale(1.035, 1.035);
+    transition: 0.75s;
 }
 
 /* Imagen */
@@ -517,6 +523,7 @@
 .g-footer span img:hover{
     opacity: 1;
     transform:scale(1.25, 1.25);
+    transition: 0.75s;
 }
 
 /* "Copyright" texto */
