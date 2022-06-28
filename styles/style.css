@@ -568,8 +568,8 @@
 #colorAmarillo:hover{
     filter: invert(84%) sepia(98%) saturate(2099%) hue-rotate(356deg) brightness(107%) contrast(106%);
 }
-#colorSalmon:hover{
-    filter: invert(64%) sepia(44%) saturate(1087%) hue-rotate(313deg) brightness(100%) contrast(97%);
+#colorPink:hover{
+    filter: invert(15%) sepia(97%) saturate(4903%) hue-rotate(325deg) brightness(101%) contrast(109%);
 }
 
 /* "Copyright" texto */
