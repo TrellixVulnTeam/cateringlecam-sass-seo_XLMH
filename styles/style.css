@@ -663,8 +663,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-left: 200px;
-        max-width: 70%;
+        margin-left: 260px;
+        max-width: 60%;
     }
     #formularioCont{
         display: flex;
@@ -698,7 +698,7 @@
         display: inline-block;
         background-color: rgb(255, 213, 198);
         color: rgb(88, 52, 39);
-        width: 90%; height: auto;
+        width: 60%; height: auto;
         background-size: cover;
         margin-top: 10px;
         text-shadow: 2px 2px 4px rgb(82, 82, 82);
@@ -707,7 +707,7 @@
 
     /* Main gastronomía (ajusta el background gris) */
     .main-gast section{
-        width: 65%; height: auto;
+        width: 60%; height: auto;
     } 
 
     /* Tamaño de imagenes galeria */
